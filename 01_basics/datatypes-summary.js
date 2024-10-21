@@ -50,4 +50,32 @@ const myFunction = function () {
 
 //
 
-console.log("type of bignumber :", typeof heros);
+// console.log("type of bignumber :", typeof heros);
+
+
+/* +++++++++++++++++ Memory ++++++++++++++++++++*/
+
+/*
+
+
+
+*/
+
+let myYoutubeName = 'ismail_Youtube'
+
+let anotherName = myYoutubeName;
+anotherName = "chaiAurCode"
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let userOne ={
+   email:'ismail@gmail.com',
+   upi:'abced',
+}
+
+let userTwo = userOne;
+ 
+userTwo.email='khan@gmail.com';
+
+console.log(userOne.email);
+console.log(userTwo.email);
