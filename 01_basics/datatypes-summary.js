@@ -61,21 +61,49 @@ const myFunction = function () {
 
 */
 
-let myYoutubeName = 'ismail_Youtube'
+// let myYoutubeName = 'ismail_Youtube'
 
-let anotherName = myYoutubeName;
-anotherName = "chaiAurCode"
-console.log(anotherName);
-console.log(myYoutubeName);
+// let anotherName = myYoutubeName;
+// anotherName = "chaiAurCode"
+// console.log(anotherName);
+// console.log(myYoutubeName);
 
-let userOne ={
-   email:'ismail@gmail.com',
-   upi:'abced',
+// let userOne ={
+//    email:'ismail@gmail.com',
+//    upi:'abced',
+// }
+
+// let userTwo = userOne;
+
+// userTwo.email='khan@gmail.com';
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+
+//Stack Concept
+
+let myName = "isamil";
+let nickname = myName;
+
+nickname = "khan";
+
+
+console.log(nickname);
+console.log(myName);
+
+
+// Heap concept
+
+const myCar = {
+   type: 'LTV',
+   model: 2022,
 }
 
-let userTwo = userOne;
- 
-userTwo.email='khan@gmail.com';
+let newCar = myCar;
+newCar.type = 'htv';
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(myCar.type);
+console.log(newCar.type);
+
+
